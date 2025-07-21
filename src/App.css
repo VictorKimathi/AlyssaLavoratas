@@ -1,0 +1,81 @@
+:root {
+  --background-primary: #0F1112;
+  --background-secondary: #181C1F;
+  --background-tertiary: #22272B;
+  --text-primary: #FFFFFF;
+  --text-secondary: #E0E0E0;
+  --accent-blue: #61DAFB;
+  --accent-orange: #FF5F1F;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.section {
+  padding: 6rem 0;
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: 2px solid var(--accent-blue);
+  color: var(--text-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: var(--accent-blue);
+  color: var(--background-primary);
+}
+.btn-primary {
+  background-color: var(--accent-blue);
+  color: var(--background-primary);
+}
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--accent-blue);
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
