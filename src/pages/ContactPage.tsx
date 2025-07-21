@@ -1,9 +1,11 @@
 import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import ContactForm from '../components/ContactForm';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+
 const ContactPage = () => {
-  return <div className="w-full bg-[#0F1112] text-white pt-24">
+  return (
+    <div className="w-full bg-[#0F1112] text-white pt-24">
       {/* Hero Section */}
       <section className="py-20 bg-[#181C1F]">
         <div className="container mx-auto px-4 text-center">
@@ -17,18 +19,25 @@ const ContactPage = () => {
           </p>
         </div>
       </section>
+
       {/* Contact Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <SectionTitle title="Get In Touch" subtitle="I'd love to hear about your project" />
+              <SectionTitle
+                title="Get In Touch"
+                subtitle="I'd love to hear about your project"
+              />
               <div className="space-y-6 mb-12">
                 <div className="flex items-start">
                   <Mail size={24} className="text-[#61DAFB] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <a href="mailto:alyssalavorata883@gmail.com" className="text-gray-300 hover:text-[#61DAFB] transition-colors">
+                    <a
+                      href="mailto:alyssalavorata883@gmail.com"
+                      className="text-gray-300 hover:text-[#61DAFB] transition-colors"
+                    >
                       alyssalavorata883@gmail.com
                     </a>
                   </div>
@@ -37,7 +46,10 @@ const ContactPage = () => {
                   <Phone size={24} className="text-[#61DAFB] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
-                    <a href="tel:+12179852140" className="text-gray-300 hover:text-[#61DAFB] transition-colors">
+                    <a
+                      href="tel:+12179852140"
+                      className="text-gray-300 hover:text-[#61DAFB] transition-colors"
+                    >
                       (217) 985-2140
                     </a>
                   </div>
@@ -52,8 +64,6 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              
-              </div>
             </div>
             <div className="bg-[#181C1F] p-8 rounded-lg">
               <h2 className="text-2xl font-bold mb-6">Send Me a Message</h2>
@@ -62,10 +72,15 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-[#181C1F]">
         <div className="container mx-auto px-4">
-          <SectionTitle title="Frequently Asked Questions" subtitle="Common questions about working together" centered={true} />
+          <SectionTitle
+            title="Frequently Asked Questions"
+            subtitle="Common questions about working together"
+            centered={true}
+          />
           <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
               <div>
@@ -117,6 +132,8 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-    </div>;
+    </div>
+  );
 };
+
 export default ContactPage;
