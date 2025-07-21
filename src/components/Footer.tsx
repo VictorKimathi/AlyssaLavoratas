@@ -10,17 +10,7 @@ const Footer = () => {
             <p className="mb-4">
               Tech-savvy Digital Writer: Making Innovation Relatable.
             </p>
-            <div className="flex space-x-4">
-              <a href="https://linkedin.com" className="text-white hover:text-[#61DAFB] transition-colors" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
-              <a href="https://twitter.com" className="text-white hover:text-[#61DAFB] transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="https://github.com" className="text-white hover:text-[#61DAFB] transition-colors" aria-label="GitHub">
-                <Github size={20} />
-              </a>
-            </div>
+            
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
