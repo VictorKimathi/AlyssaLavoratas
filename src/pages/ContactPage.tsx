@@ -52,19 +52,7 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <h3 className="font-bold mb-4">Connect on Social Media</h3>
-                <div className="flex space-x-4">
-                  <a href="https://linkedin.com" className="bg-[#181C1F] text-white hover:text-[#61DAFB] p-3 rounded-full transition-colors" aria-label="LinkedIn">
-                    <Linkedin size={24} />
-                  </a>
-                  <a href="https://twitter.com" className="bg-[#181C1F] text-white hover:text-[#61DAFB] p-3 rounded-full transition-colors" aria-label="Twitter">
-                    <Twitter size={24} />
-                  </a>
-                  <a href="https://github.com" className="bg-[#181C1F] text-white hover:text-[#61DAFB] p-3 rounded-full transition-colors" aria-label="GitHub">
-                    <Github size={24} />
-                  </a>
-                </div>
+              
               </div>
             </div>
             <div className="bg-[#181C1F] p-8 rounded-lg">
