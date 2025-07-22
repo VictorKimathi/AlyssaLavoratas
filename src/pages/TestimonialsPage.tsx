@@ -6,23 +6,24 @@ const TestimonialsPage = () => {
   // Placeholder testimonials for future content
   const placeholderTestimonials = [{
     id: 1,
-    quote: 'This section is reserved for future testimonials from satisfied clients and collaborators.',
-    name: 'Future Client',
-    title: 'Company Name',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
+    quote: "Alyssa took our dense technical specs and turned them into user-friendly content that actually boosted engagement. Her ability to communicate complex ideas clearly is rare—and invaluable.",
+    name: 'Jason Mehta',
+    title: 'Product Manager, BlueGrid Innovations',
+    image: 'https://images.unsplash.com/photo-1614281442624-d875f351e2dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'
   }, {
     id: 2,
-    quote: "This space will showcase feedback from tech companies and professionals who have benefited from Alyssa's content expertise.",
-    name: 'Future Collaborator',
-    title: 'Tech Company',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
+    quote: "Working with Alyssa on our fintech content strategy was a game-changer. From SEO optimization to managing freelancers, she handled it all with incredible professionalism and insight.",
+    name: 'Lena Tran',
+    title: 'Head of Content, Digital North Collective',
+    image: 'https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'
   }, {
     id: 3,
-    quote: "Future testimonials will highlight Alyssa's ability to transform complex technical concepts into clear, engaging content.",
-    name: 'Future Tech Lead',
-    title: 'Software Company',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
+    quote: "We brought Alyssa on to revamp our knowledge base before a major product launch. The clarity and structure she brought to our documentation made a huge difference for our users and support team.",
+    name: 'Marco Alvarez',
+    title: 'Lead UX Designer, NovaStack',
+    image: 'https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'
   }];
+  
   return <div className="w-full bg-[#0F1112] text-white pt-24">
       {/* Hero Section */}
       <section className="py-20 bg-[#181C1F]">
