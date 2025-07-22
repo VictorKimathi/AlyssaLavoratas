@@ -33,7 +33,7 @@ const TestimonialsPage = () => {
           </h1>
           <div className="h-1 w-20 bg-[#61DAFB] mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            This page is reserved for future testimonials from clients and
+            This page is reserved for testimonials from clients and
             collaborators who have experienced the value of clear, compelling
             tech content.
           </p>
@@ -42,7 +42,7 @@ const TestimonialsPage = () => {
       {/* Testimonials Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <SectionTitle title="Future Testimonials" subtitle="This section will be populated with feedback from satisfied clients" centered={true} />
+          {/* <SectionTitle title="Future Testimonials" subtitle="This section will be populated with feedback from satisfied clients" centered={true} /> */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {placeholderTestimonials.map(testimonial => <div key={testimonial.id} className="bg-[#181C1F] rounded-lg p-8 relative">
                 <QuoteIcon size={48} className="text-[#61DAFB]/20 absolute top-4 right-4" />
