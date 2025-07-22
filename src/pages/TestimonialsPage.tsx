@@ -9,7 +9,7 @@ const TestimonialsPage = () => {
     quote: "Alyssa took our dense technical specs and turned them into user-friendly content that actually boosted engagement. Her ability to communicate complex ideas clearly is rare—and invaluable.",
     name: 'Jason Mehta',
     title: 'Product Manager, BlueGrid Innovations',
-    image: 'https://images.unsplash.com/photo-1614281442624-d875f351e2dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'
+    image: 'https://media.licdn.com/dms/image/v2/C5603AQGmetffhM5NiQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1602505981624?e=2147483647&v=beta&t=lt_yGiFIGW4n6zzViwK_Ew2vVZOWBxIlRqJxFZhAYIk'
   }, {
     id: 2,
     quote: "Working with Alyssa on our fintech content strategy was a game-changer. From SEO optimization to managing freelancers, she handled it all with incredible professionalism and insight.",
@@ -21,7 +21,7 @@ const TestimonialsPage = () => {
     quote: "We brought Alyssa on to revamp our knowledge base before a major product launch. The clarity and structure she brought to our documentation made a huge difference for our users and support team.",
     name: 'Marco Alvarez',
     title: 'Lead UX Designer, NovaStack',
-    image: 'https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQVewWEKkMYW7Ym60RO4PYL2wqno5mEAFybkGR1-LzcokQktUW62sd58srI9Ivly6pkU&usqp=CAU'
   }];
   
   return <div className="w-full bg-[#0F1112] text-white pt-24">
