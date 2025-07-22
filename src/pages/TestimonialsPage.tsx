@@ -32,11 +32,7 @@ const TestimonialsPage = () => {
             Hear From My Collaborators
           </h1>
           <div className="h-1 w-20 bg-[#61DAFB] mx-auto mb-6"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            This page is reserved for testimonials from clients and
-            collaborators who have experienced the value of clear, compelling
-            tech content.
-          </p>
+        
         </div>
       </section>
       {/* Testimonials Section */}
