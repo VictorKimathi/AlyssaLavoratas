@@ -4,40 +4,25 @@ import PortfolioCard from '../components/PortfolioCard';
 const PortfolioPage = () => {
   const portfolioItems = [{
     id: 1,
-    title: 'Content Strategy for Digital Products & Services',
-    description: 'Built content maps, managed freelance teams, and optimized content based on performance for cloud storage, VPNs, and fintech apps.',
+    title: 'Green Tech Gadgets: How Sustainability Is Reshaping Consumer Electronics in 2025',
+    description: 'There was a time when "eco-friendly gadget" meant choosing a product with less packaging or maybe skipping the charger in the box. But in 2025, sustainability in consumer tech goes far beyond that. From modular devices that are built to last, to smart systems that reduce energy waste automatically, green tech is no longer a niche – it's becoming an industry standard.',
     image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    link: '/portfolio/content-strategy'
+    link: '/portfolio/content-strategy',
+    href: 'Green_Tech_Gadgets.pdf'
   }, {
     id: 2,
-    title: 'Technical Documentation & UX Copy for Software Rollouts',
-    description: 'Created user manuals, onboarding guides, and translated developer notes into scalable, branded UX copy for software and beta programs.',
+    title: 'Retro Tech with a Twist: How Classic Gadgets Are Getting Smart Upgrades',
+    description: 'There’s something irresistibly cool about vintage tech. The tactile buttons, the warm glow of analog displays, the satisfying clicks of cassette decks – they bring back a time when gadgets had weight and character. But today’s retro tech isn’t just about nostalgia. Thanks to a wave of smart upgrades, classic designs are getting modern brains.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    link: '/portfolio/technical-documentation'
+    link: '/portfolio/technical-documentation',
+    href: 'Retro_Tech_with_a_Twist.pdf'
   }, {
     id: 3,
-    title: 'Smart Home Technology Content Hub',
-    description: 'Developed a comprehensive content strategy for smart home products, including buying guides, setup tutorials, and troubleshooting resources.',
+    title: 'Smart Glasses 2.0: Are Wearables for Your Face Finally Ready to Take Off?',
+    description: 'Smart glasses have hovered on the edge of mainstream adoption for years. Early attempts like Google Glass felt more like sci-fi prototypes than everyday gadgets and later products leaned too far into niche use or clunky design. But 2025 might be the year that changes. With the latest wave of smart glasses merging sleek aesthetics, AI-driven features and real-world utility, this category is beginning to feel a lot less experimental – and a lot more inevitable.',
     image: 'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    link: '/portfolio/smart-home'
-  }, {
-    id: 4,
-    title: 'App Ecosystem User Guides',
-    description: 'Created user-friendly guides explaining complex app ecosystems, integration possibilities, and maximizing productivity across platforms.',
-    image: 'https://images.unsplash.com/photo-1551650992-ee4fd47df41f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
-    link: '/portfolio/app-ecosystem'
-  }, {
-    id: 5,
-    title: 'SEO-Optimized Tech Reviews',
-    description: 'Developed a framework for creating tech product reviews that balance technical details with user benefits while maximizing search visibility.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    link: '/portfolio/seo-reviews'
-  }, {
-    id: 6,
-    title: 'Fintech App User Onboarding',
-    description: 'Crafted a comprehensive onboarding experience for a fintech application, simplifying complex financial concepts for new users.',
-    image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    link: '/portfolio/fintech-onboarding'
+    link: '/portfolio/smart-home',
+    href: 'Smart_Glasses_2.pdf'
   }];
   return <div className="w-full bg-[#0F1112] text-white pt-24">
       {/* Hero Section */}
