@@ -54,9 +54,9 @@ const ResumePage = () => {
                 <ul className="space-y-6">
                   <li>
                     <h4 className="font-bold">
-                      Content Strategist – Tech Vertical
+                      Content Strategist
                     </h4>
-                    <p className="text-gray-400">Digital North Collective</p>
+                    <p className="text-gray-400">Quarryline Digital  </p>
                     <p className="text-gray-300 mt-2">
                       Led content strategy for cloud storage, VPNs, and fintech
                       apps. Managed freelance teams and optimized content based
