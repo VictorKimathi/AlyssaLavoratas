@@ -31,7 +31,7 @@ const ResumePage = () => {
               experience, skills, and educational background in the field of
               tech content strategy and writing.
             </p>
-            <Button href="/alyssa-lavorata-resume.pdf" variant="primary" download={true} className="flex items-center justify-center mx-auto text-lg px-8 py-4">
+            <Button href="Alyssa_Lavorata_Resume.pdf" variant="primary" download={true} className="flex items-center justify-center mx-auto text-lg px-8 py-4">
               Download Resume (PDF) <DownloadIcon size={20} className="ml-2" />
             </Button>
             <p className="text-gray-400 mt-4">
